@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export function shallowEquals(objA: any, objB: any): boolean {
+export function shallowEquals<T>(objA: T, objB: T): boolean {
   return objA === objB;
 }
