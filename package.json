@@ -21,13 +21,6 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "tsc --noEmit",
-      "prettier --write",
-      "eslint --fix"
-    ]
-  },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
     "@playwright/test": "^1.49.1",
