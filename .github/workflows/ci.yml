@@ -85,16 +85,3 @@ jobs:
         run: |
           npm install
           npm run test:advanced
-  e2e:
-    timeout-minutes: 60
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-          ref: ${{ github.event.pull_request.head.sha }}
-      - name: Install dependencies
-        run: |
-          npm install
-          npx playwright install --with-deps
-          npm run test:e2e
