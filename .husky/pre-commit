@@ -2,3 +2,4 @@
 npx eslint --fix .  # ESLint로 모든 파일 검사 및 수정
 npx prettier --write .  # Prettier로 코드 스타일 고정
 npx tsc --noEmit  # TypeScript로 타입 검사만 수행 (출력 X)
+
