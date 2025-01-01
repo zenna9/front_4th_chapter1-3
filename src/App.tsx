@@ -1,4 +1,5 @@
-import React, { useState, createContext, useContext } from "react";
+import { useState, createContext, useContext } from "react";
+// import * as react from "react"
 import { generateItems, renderLog } from "./utils";
 
 // 타입 정의
